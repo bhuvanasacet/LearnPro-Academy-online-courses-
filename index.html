@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online course Website</title>
+<link rel="stylesheet" href="courses.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="wrapper">
+<div class="header"id="hd">
+<h3>LearnPro Academy</h3>
+<ul>
+<li><a href="#hm">Home</a></li>
+<li><a href="#abt">About Us</a></li>
+<li><a href="#cr">Popular Courses</a></li>
+<li><a href="#wr">Why Choose Us</a></li>
+<li><a href="#pr">How it Works</a></li>
+<li><a href="#blg">Testimonial</a></li>
+<li><a href="#ct">Enroll Now</a></li>
+
+</ul>
+</div>
+
+
+<div class="home" id="hm">
+<h4>Learn New Skills.Build Your Future</h4>
+<p> Learn practical and career-focused courses from experienced<br>
+            instructors. Improve your skills, learn at your own pace,<br>
+            and take the next step toward your career.</p>
+<button onclick="window.location.href='#cr'"><b>
+    Explore Courses</b>
+</button>
+<button onclick="window.location.href='#ct'">
+   <b> Enroll Now</b>
+</button>
+</div>
+
+<!-- About Us -->
+<div class="about" id="abt" style="background-color:#003366">
+
+    <!-- Left Side - Content -->
+    <div class="about-text">
+
+        <h3>ABOUT US</h3>
+
+        <h2>Learn Today, Build Your Future</h2>
+
+        <p>
+            Welcome to LearnPro Academy, an online learning platform
+            designed to help students and beginners develop useful
+            skills for their careers.
+        </p>
+
+        <p>
+            We provide easy-to-understand courses with practical lessons,
+            projects, quizzes, and learning resources.
+        </p>
+
+        <button onclick="openAbout()">Learn More</button>
+
+    </div>
+
+    <!-- Right Side - Image -->
+    <div class="about-image">
+
+        <img src="courses/about.jpeg" alt="LearnPro Academy">
+
+    </div>
+
+</div>
+
+<!-- About More Popup -->
+<div class="about-popup" id="aboutPopup">
+
+    <div class="about-popup-content">
+
+        <span class="close-btn" onclick="closeAbout()">&times;</span>
+
+        <h3>ABOUT LEARNPRO ACADEMY</h3>
+
+        <h2>Learn Skills. Build Your Future.</h2>
+
+        <p>
+            LearnPro Academy is an online learning platform created to help
+            students and beginners develop practical and useful skills.
+        </p>
+
+        <p>
+            We provide beginner-friendly courses in Web Development,
+            Java Programming, Python, PHP & MySQL, UI/UX Design,
+            Data Analytics and WordPress.
+        </p>
+
+        <p>
+            Our courses include simple lessons, practical projects,
+            activities and learning resources to help learners understand
+            concepts easily and gain confidence.
+        </p>
+
+        <p>
+            Our goal is to make learning simple, flexible and accessible
+            for everyone who wants to improve their knowledge and skills.
+        </p>
+
+        <button onclick="closeAbout()">Close</button>
+
+    </div>
+
+</div>
+
+<div class="course-container" id="cr">
+
+    <div class="course-box">
+        <i class="fa fa-html5"></i>
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, JavaScript and Bootstrap.</p>
+       
+    </div>
+
+    <div class="course-box">
+        <i class="fa fa-coffee"></i>
+        <h3>Java Programming</h3>
+        <p>Learn Java programming and object-oriented concepts.</p>
+        
+    </div>
+
+    <div class="course-box">
+        <i class="fa fa-code"></i>
+        <h3>Python Programming</h3>
+        <p>Learn Python basics and practical programming.</p>
+        
+    </div>
+
+    <div class="course-box">
+        <i class="fa fa-database"></i>
+        <h3>PHP & MySQL</h3>
+        <p>Learn PHP and create database-based websites.</p>
+
+    </div>
+
+    <div class="course-box">
+        <i class="fa fa-paint-brush"></i>
+        <h3>UI/UX Design</h3>
+        <p>Learn the basics of attractive website design.</p>
+
+    </div>
+
+    <div class="course-box">
+        <i class="fa fa-bar-chart"></i>
+        <h3>Data Analytics</h3>
+        <p>Learn how to understand and work with data.</p>
+
+    </div>
+
+    <div class="course-box last-course">
+        <i class="fa fa-wordpress"></i>
+        <h3>WordPress</h3>
+        <p>Learn how to create and manage websites.</p>
+
+    </div>
+
+</div>
+
+<div class="why-choose" id="wr">
+
+    <h3>WHY CHOOSE US</h3>
+
+    <h2>Learn Better  :  Grow Faster</h2>
+
+    <p>
+        Choose LearnPro Academy to build practical skills
+        and learn with confidence.
+    </p>
+
+    <div class="why-container">
+
+        <div class="why-box">
+            <i class="fa fa-user"></i>
+            <h3>Expert Instructors</h3>
+            <p>Learn from experienced and knowledgeable instructors.</p>
+        </div>
+
+        <div class="why-box">
+            <i class="fa fa-laptop"></i>
+            <h3>Practical Learning</h3>
+            <p>Practice with real projects and useful assignments.</p>
+        </div>
+
+        <div class="why-box">
+            <i class="fa fa-book"></i>
+            <h3>Beginner Friendly</h3>
+            <p>Easy-to-understand lessons for students and beginners.</p>
+        </div>
+
+        <div class="why-box">
+            <i class="fa fa-clock-o"></i>
+            <h3>Flexible Learning</h3>
+            <p>Learn at your own pace from anywhere.</p>
+        </div>
+
+        <div class="why-box">
+            <i class="fa fa-money"></i>
+            <h3>Affordable Courses</h3>
+            <p>Get quality learning at an affordable price.</p>
+        </div>
+
+        <div class="why-box">
+            <i class="fa fa-certificate"></i>
+            <h3>Certificate</h3>
+            <p>Receive a certificate after completing your course.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="how-it-works" id="pr">
+
+    <h3>HOW IT WORKS</h3>
+
+    <h2>Start Learning in 4 Simple Steps</h2>
+
+    <p><b>
+        Join LearnPro Academy and start building your skills easily.
+   </b> </p>
+
+    <div class="steps-container">
+
+        <div class="step-box">
+            <i class="fa fa-search"></i>
+            <h3>1. Choose a Course</h3>
+            <p>
+                Explore our courses and choose the one that matches
+                your learning goals.
+            </p>
+        </div>
+
+        <div class="step-box">
+            <i class="fa fa-pencil-square-o"></i>
+            <h3>2. Enroll</h3>
+            <p>
+                Register for your selected course and begin your
+                learning journey.
+            </p>
+        </div>
+
+        <div class="step-box">
+            <i class="fa fa-laptop"></i>
+            <h3>3. Learn & Practice</h3>
+            <p>
+                Learn lessons, complete activities and practice
+                your new skills.
+            </p>
+        </div>
+
+        <div class="step-box">
+            <i class="fa fa-certificate"></i>
+            <h3>4. Get Certificate</h3>
+            <p>
+                Complete your course and receive a certificate
+                of completion.
+            </p>
+        </div>
+
+    </div>
+<!-- Testimonial -->
+
+<div class="testimonial" id="blg">
+
+    <h3>TESTIMONIAL</h3>
+
+    <h2>What Our Learners Say</h2>
+
+    <p>
+        Hear from our learners who improved their skills
+        with LearnPro Academy.
+    </p>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-box">
+
+            <img src="courses/student1.jpeg" alt="Student">
+
+            <h3>Priya S.</h3>
+
+            <h4>Web Development Student</h4>
+
+            <p>
+                "LearnPro Academy made web development easy
+                to understand. The practical lessons helped
+                me improve my skills."
+            </p>
+
+        </div>
+
+
+        <div class="testimonial-box">
+
+            <img src="courses/student2.jpeg" alt="Student">
+
+            <h3>Arun K.</h3>
+
+            <h4>Java Programming Student</h4>
+
+            <p>
+                "The Java course was simple and useful.
+                I enjoyed learning through practical examples
+                and exercises."
+            </p>
+
+        </div>
+
+
+        <div class="testimonial-box">
+
+            <img src="courses/student3.jpeg" alt="Student">
+
+            <h3>Meena R.</h3>
+
+            <h4>Python Student</h4>
+
+            <p>
+                "The lessons were clear and beginner-friendly.
+                I gained confidence in programming after
+                completing the course."
+            </p>
+
+        </div>
+
+    </div>
+
+</div>	
+
+</div>
+
+<!-- Enroll Now -->
+
+<div class="enroll" id="ct">
+
+    <h3>ENROLL NOW</h3>
+
+    <h2>Start Your Learning Journey Today</h2>
+
+    <p><b>
+        Choose your favorite course, enter your details,
+        and take the first step toward building new skills.
+    </b></p>
+
+    <div class="enroll-container">
+
+        <div class="enroll-content">
+
+            <h3>Join LearnPro Academy</h3>
+
+            <p>
+                Learn practical skills through simple lessons,
+                projects and activities.
+            </p>
+
+            <p>
+                Start learning today and build your future
+                with confidence.
+            </p>
+
+        </div>
+
+        <div class="enroll-form">
+
+    <input type="text" id="studentName" placeholder="Enter Your Name">
+
+    <input type="email" id="studentEmail" placeholder="Enter Your Email">
+
+    <input type="text" id="studentMobile" placeholder="Enter Your Mobile">
+
+    <select id="studentCourse">
+        <option value="">Select Course</option>
+        <option>Web Development</option>
+        <option>Java Programming</option>
+        <option>Python Programming</option>
+        <option>PHP & MySQL</option>
+        <option>UI/UX Design</option>
+        <option>Data Analytics</option>
+        <option>WordPress</option>
+    </select>
+
+    <button type="button" onclick="sendWhatsApp()">Enroll Now</button>
+
+</div>
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h3>LearnPro Academy</h3>
+            <p>
+                Learn practical skills, improve your knowledge,
+                and build a better future with LearnPro Academy.
+            </p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#hm">Home</a>
+            <a href="#abt">About Us</a>
+            <a href="#tm">Popular Courses</a>
+            <a href="#wr">Why Choose Us</a>
+            <a href="#ct">Enroll Now</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Popular Courses</h3>
+            <p>Web Development</p>
+            <p>Java Programming</p>
+            <p>Python Programming</p>
+            <p>PHP & MySQL</p>
+            <p>UI/UX Design</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+            <p><i class="fa fa-envelope"></i> info@learnproacademy.com</p>
+            <p><i class="fa fa-phone"></i> +91 7397720318</p>
+            <p><i class="fa fa-map-marker"></i> Trichy, Tamil Nadu</p>
+
+            <div class="social-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 LearnPro Academy. All Rights Reserved.</p>
+    </div>
+
+</div>
+</div>
+<script>
+
+function sendWhatsApp() {
+
+    var name = document.getElementById("studentName").value;
+    var email = document.getElementById("studentEmail").value;
+    var mobile = document.getElementById("studentMobile").value;
+    var course = document.getElementById("studentCourse").value;
+
+    if (name == "" || email == "" || mobile == "" || course == "") {
+        alert("Please fill all the details.");
+        return;
+    }
+
+    var message =
+        "Hello LearnPro Academy,%0A%0A" +
+        "I would like to enroll in a course.%0A%0A" +
+        "Name: " + name + "%0A" +
+        "Email: " + email + "%0A" +
+        "Mobile: " + mobile + "%0A" +
+        "Course: " + course;
+
+    var whatsappURL = "https://wa.me/917397720318?text=" + message;
+
+    window.open(whatsappURL, "_blank");
+}
+
+</script>
+<script>
+
+function openAbout() {
+    document.getElementById("aboutPopup").style.display = "flex";
+}
+
+function closeAbout() {
+    document.getElementById("aboutPopup").style.display = "none";
+}
+
+</script>
+</body>
+</html>
